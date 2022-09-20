@@ -3,6 +3,7 @@
 namespace samuelelonghin\google\auth;
 
 use Google\Client;
+use Yii;
 
 trait  GoogleAuthTrait
 {
