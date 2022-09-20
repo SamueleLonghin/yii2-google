@@ -1,7 +1,8 @@
 <?php
-use Google\Client;
 
 namespace samuelelonghin\google\auth;
+
+use Google\Client;
 
 trait  GoogleAuthTrait
 {
