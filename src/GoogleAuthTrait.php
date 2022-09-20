@@ -11,7 +11,7 @@ trait  GoogleAuthTrait
     private function checkServiceAccountCredentialsFile()
     {
         // service account creds
-        $application_creds = Yii::$app->params['service-account-credentials'];
+        $application_creds = Yii::$app->params['google-service-account-credentials'];
 
         return file_exists($application_creds) ? $application_creds : false;
     }
